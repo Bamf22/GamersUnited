@@ -1,0 +1,132 @@
+/* this is a comment */
+/* background from web */
+@keyframes color {
+    0%   { background: #33CCCC; }
+    20%  { background: #33CC36; }
+    40%  { background: #B8CC33; }
+    60%  { background: #FCCA00; }
+    80%  { background: #f3f7f3; }
+    100% { background: #33CCCC; }
+    }
+    
+    body {
+      background: #33CCCC; /* Fallback */
+      animation: color 6s infinite linear;
+      text-align: center;
+      padding: 2em;
+    }
+    h1 {
+      text-align: center;
+      font-family: 'Kavoon', sans-serif;
+      font-size: 2.5em;
+      color: rgb(248, 70, 70);
+      text-shadow: 2PX 2PX black;
+      padding-left: 0px;
+      
+    }
+
+h4 {
+  text-align: left;
+  font-family: 'Kavoon', sans-serif;
+  font-size: 2.5em;
+  color: rgb(248, 70, 70);
+  text-shadow: 2PX 2PX black;
+  padding-left: 120px;
+}
+
+h2 {
+    color: rgb(41, 3, 110);
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: left;
+    padding-left: 8%;
+}
+
+
+h3 {
+    color: rgb(41, 3, 110);
+    font-size: 20px;
+    text-align: left;
+    padding-left: 8%;
+}
+P {
+    COLOR: rgb(4, 1, 46);
+    FONT-SIZE: 25;
+    text-align: left;
+    text-align: justify;
+    padding-left: 120px;
+    padding-right: 35%;
+}
+
+
+
+
+/* to create own properties use <div class = "navigation"*/
+
+
+
+
+
+/* static background color */
+/* body {
+    background-color: rgb (160, 222, 238);
+    /* background-image: url("pics/back.jpeg"); */
+    /* padding: 50px;
+    align-items: center;  */
+/* } */ */
+
+
+            
+
+
+a:link {color: rgb(255, 0, 0);}
+/* sizing and borders around page and padding */
+
+/* .box_sizing {padding: 50px;
+} */
+/* border on images with padding */
+IMG {
+    
+    BORDER: 3PX SOLID rgb(179, 50, 50);
+    box-sizing: border-box;
+        padding: 0px;
+}
+
+/* highlight link text */
+a {
+    color: #160202;
+}
+
+a:hover {
+    color: rgb(4, 17, 192);
+}
+
+a:link {
+    text-decoration: box;
+    font-size: 15px;
+    font-family: 'Montserrat Alternates', sans-serif;  
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    /* BORDER: 3PX SOLID rgb(6, 138, 61);
+    box-sizing: border-box; */
+}
+
+.background {
+    background-color: rgb(20, 220, 63) solid;
+}
+
+.stick1 {
+    position: sticky;
+    top: 20px;
+}
+
+.stick2 {
+    position: sticky;
+    top: 70px;
+}
+
+.imgContainer > img:hover {
+    width: 30%;
+    height: 30%;
+}
